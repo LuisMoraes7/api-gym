@@ -5,8 +5,7 @@
   "type": "module",
   "license": "UNLICENSED",
   "scripts": {
-    "start": "node build/server.js",
-    "heroku-postbuild": "npm run build",
+    "start": "node bin/server.ts",
     "build": "node ace build",
     "dev": "node ace serve --hmr",
     "test": "node ace test",
