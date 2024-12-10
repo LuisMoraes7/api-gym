@@ -28,9 +28,6 @@ export default class GymBrosController {
                 message: 'Usuário não encontrado'
             }
         }
-        // if (await bouncer.allows(editGymbro, gymUsername)){
-        //     return 'joca'
-        // }
         return{
             data: gymBro
         }
